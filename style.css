@@ -1,0 +1,43 @@
+html, 
+body {
+	height: 100%;
+	width: 100%;
+}
+
+header.startup {
+	background-image: url('header.jpg');
+	background-position: center;
+	background-size: cover;
+	height: 100%;
+
+	
+}
+
+header.startup h1 {
+	font-size: 2rem;
+	margin-top: 550px;
+}
+
+.text-white {color: white;}
+
+.btn-danger {
+	border-radius: 10rem;
+	padding: 1rem 2rem;
+	font-weight: 700;
+}
+
+.btn-danger:hover {
+	border-width: 3px;
+	border-color: #dc3545;
+	background-color: #dc3545;
+}
+
+.text-fade {
+	color: rgb(255,255,255,0.7);
+}
+
+header.startup hr {
+	border-width: 5px;
+	border-color: #dc3545;
+	max-width: 65px;
+}
